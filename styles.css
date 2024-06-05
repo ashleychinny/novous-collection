@@ -49,8 +49,7 @@ main {
 
 .promo-image-container {
     position: relative;
-    width: 100%;
-    max-width: 600px;
+    max-width: 100%;
 }
 
 .promo-image {
@@ -82,13 +81,13 @@ main {
 }
 /* Ensure the sections have proper width and alignment */
 section {
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 
 .sg{
-    width: 8S0%;
+    width: 80%;
     height: auto;
     border-radius: 10px; /* Optional: add some border radius for styling */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for styling */
