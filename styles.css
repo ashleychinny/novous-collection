@@ -29,7 +29,7 @@ main {
      /* Adjust this value based on the actual height of your header */
     box-sizing: border-box;
     background-color: #b6b6b6;
-    flex: 1;
+    max-width: 100%;
 }
 
 .responsive-image {
