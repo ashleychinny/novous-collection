@@ -116,3 +116,33 @@ section {
 .contact-section a:hover {
     text-decoration: highlight;
 }
+
+.image-container {
+    align-items: center;
+    width: 70%;
+    background-color:#ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap:wrap;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content:center;
+}
+.image-item {
+    justify-content: center;
+}
+
+.image-item img {
+    
+    max-width: 150px; /* Adjust as necessary */
+    height: auto;
+}
+
+.text-container{
+    align-items:center;
+    flex-direction:column;
+}
