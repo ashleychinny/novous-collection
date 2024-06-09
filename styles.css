@@ -132,7 +132,7 @@ section {
     display: flex;
     flex-direction: row;
     position: relative;
-    justify-content:center;
+    justify-content: center;
 }
 .image-item {
     justify-content: center;
